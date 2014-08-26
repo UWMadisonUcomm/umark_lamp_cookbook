@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: lamp_cookbook
+# Cookbook Name:: uwmark_lamp
 # Recipe:: cleanup
 #
 

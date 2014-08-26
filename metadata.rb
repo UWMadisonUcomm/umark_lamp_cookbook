@@ -3,7 +3,7 @@ maintainer       'Nick Weaver'
 maintainer_email 'jnweaver@wisc.edu'
 license          'All rights reserved'
 description      'Builds a Centos-based LAMP environment'
-version          '0.1.1'
+version          '0.1.2'
 
 depends "mysql", "= 5.4.0"
 depends "apache2", "~> 2.0.0"
