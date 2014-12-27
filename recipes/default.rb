@@ -3,6 +3,9 @@
 # Recipe:: default
 #
 
+selinux_state "SELinux Disabled" do
+  action :disabled
+end
 include_recipe "uwmark_lamp::apache2"
 include_recipe "uwmark_lamp::php"
 include_recipe "uwmark_lamp::mysql"
